@@ -1,0 +1,32 @@
+{
+  "name": "cjdropshipping",
+  "version": "0.1.0",
+  "description": "CJ Dropshipping product discovery, scoring, ranking, and Shopify publishing automation.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "rank:demo": "tsx src/jobs/rankDemoProducts.ts",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "cj-dropshipping",
+    "shopify",
+    "automation",
+    "product-ranking",
+    "dropshipping"
+  ],
+  "author": "Razex Solutions LLC",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
